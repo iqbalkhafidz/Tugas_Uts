@@ -1,0 +1,83 @@
+/* style body dan header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* style navigasi */
+nav li:hover {
+    background-color: #fff;
+}
+
+nav li:hover a{
+    color: #000000;
+}
+
+nav li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#ffffff;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EBE0D0;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* style teks header 2 */
+h2 {
+    text-align: center;
+    color: #333; /* warna teks */
+    font-size: 30px; /* ukuran font */
+}
+
+/* style container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

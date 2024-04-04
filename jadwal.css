@@ -1,0 +1,112 @@
+/* style body dan header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* style navigasi */
+nav li:hover {
+    background-color: #fff;
+}
+
+nav li:hover a{
+    color: #000000;
+}
+
+nav li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#ffffff;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EBE0D0;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* style container */
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.isi {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333; 
+    font-size: 30px; 
+    margin-top: 10px;
+   
+}
+/* style tabel */
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+
+th {
+    border: 2px solid #EBE0D0;
+    padding: 8px;
+    text-align: left;
+    color: #EBE0D0;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border: 2px solid #EBE0D0;
+    background-color: #555;
+    color: #EBE0D0;
+    opacity: 0.8;
+}
+
+th {
+    background-color: #333;
+    color: #EBE0D0;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+
+/* style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* style navigasi */
+nav li:hover {
+    background-color: #fff;
+}
+
+nav li:hover a{
+    color: #000000;
+}
+
+nav li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#ffffff;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EBE0D0;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* style header 2 */
+h2 {
+    text-align: center;
+    color: #333; /* warna teks */
+    font-size: 30px; /* ukuran font */
+}
+
+/* style container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* style isi hobi */
+.hobi {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.hobi img {
+    width: 200px;
+    border-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.deskripsi h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.deskripsi p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

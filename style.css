@@ -1,0 +1,110 @@
+/* Style body dan header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+/* style navigasi */
+nav li:hover {
+    background-color: #fff;
+}
+
+nav li:hover a{
+    color: #000000;
+}
+
+nav li {
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid#ffffff;
+    list-style-type: none;
+    transition: background-color 0.8s ease;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #EBE0D0;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* style button */
+.button {
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #555;
+    color: #fff; /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    border-radius: 5px; /* Membuat sudut tombol menjadi melengkung */
+    transition: background-color 0.3s ease; /* Efek transisi ketika tombol dihover */
+    font-size: 20px;
+
+}    
+.button:hover {
+    background-color: #333; /* Warna latar belakang tombol saat dihover */
+}
+
+/* style container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/*style profile */
+.profile img {
+    width: 200px;
+    height: 250px;
+    border-bottom: 50%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.profile img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
